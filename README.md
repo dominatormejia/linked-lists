@@ -1,3 +1,3 @@
-# Template
+# Linked List
 
-Template for basic projects
+Odin Project Linked List Practice

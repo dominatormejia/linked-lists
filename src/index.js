@@ -1,4 +1,14 @@
 import "./styles.css";
-import { greeting } from "./greeting";
+import { LinkedList } from "./linkedList";
 
-console.log(greeting);
+const list = new LinkedList();
+
+list.prepend("dog");
+list.prepend("cat");
+list.prepend("parrot");
+list.prepend("hamster");
+list.prepend("snake");
+list.prepend("turtle");
+
+console.log(list.toString());
+console.log(list.at(2));
